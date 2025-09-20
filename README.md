@@ -1,3 +1,17 @@
+#ENUNCIADO 
+Una empresa de tecnología desea implementar un módulo de validación de contraseñas para el registro de usuarios en su plataforma. La seguridad del sistema depende de que las contraseñas cumplan con las siguientes reglas:
+1.	La longitud debe ser mínimo 8 y máximo 20 caracteres.
+2.	Debe contener al menos una letra mayúscula.
+3.	Debe contener al menos una letra minúscula.
+4.	Debe incluir al menos un número.
+El equipo de pruebas debe garantizar que este módulo funciona correctamente aplicando dos técnicas complementarias:
+•	Clases de equivalencia y análisis de valores frontera:
+Identificar los grupos de valores válidos e inválidos de acuerdo con los criterios establecidos (contraseñas demasiado cortas, demasiado largas, dentro del rango pero sin cumplir algún requisito). Asimismo, probar específicamente los casos en los límites de la longitud (7, 8, 9, 19, 20 y 21 caracteres).
+•	Tablas de decisión:
+Representar todas las combinaciones posibles de cumplimiento e incumplimiento de las reglas (longitud válida/ inválida, presencia o ausencia de mayúsculas, minúsculas y números). Con base en esa tabla, establecer los resultados esperados para cada caso (contraseña válida o inválida).
+Finalmente, se debe implementar la función de validación en código, documentar los casos de prueba y realizar las pruebas unitarias correspondientes para comprobar que el sistema responde de manera correcta en todos los escenarios.
+
+
 # Validación de Contraseñas — README
 
 Este documento resume el **enunciado**, las **clases de equivalencia**, los **valores frontera** y, especialmente, la **Tabla de Decisión** para el caso de *Validación de contraseñas*.
